@@ -1,33 +1,84 @@
-<section id="projects" class="max-w-6xl mx-auto px-6 py-28">
-
-  <h2 class="text-3xl font-bold mb-12">
-    Proyectos
+<section id="projects" class="max-w-7xl mx-auto px-6 py-28">
+  <h2 class="text-4xl font-bold mb-12 text-center">
+    Proyectos Destacados
   </h2>
 
-  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
 
-    <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 
-                hover:scale-[1.02] hover:border-blue-400/40 transition">
+    <!-- Proyecto 1 -->
+    <a href="https://tu-proyecto1.com" target="_blank" rel="noopener noreferrer"
+       class="group block bg-white/5 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden 
+              hover:scale-[1.02] hover:border-blue-400/40 transition shadow-lg shadow-black/20">
 
-      <h3 class="text-xl font-semibold mb-2">
-        Nombre Proyecto
-      </h3>
-
-      <p class="text-slate-400 text-sm mb-4">
-        Breve descripción del proyecto
-      </p>
-
-      <div class="flex gap-2 mb-4 text-xs">
-        <span class="bg-white/10 px-2 py-1 rounded">React</span>
-        <span class="bg-white/10 px-2 py-1 rounded">Tailwind</span>
+      <!-- Imagen ajustada -->
+      <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
+        <img 
+          src="/imagenes/proyecto1.jpg" 
+          alt="Proyecto 1" 
+          class="max-w-full max-h-full object-contain"
+        />
       </div>
 
-      <div class="flex gap-4 text-sm">
-        <a class="text-blue-400 hover:underline">Demo</a>
-        <a class="text-slate-400 hover:text-blue-400">GitHub</a>
+      <!-- Información -->
+      <div class="p-8">
+        <h3 class="text-3xl font-semibold mb-3 group-hover:text-blue-400 transition">
+          Proyecto 1
+        </h3>
+
+        <p class="text-slate-400 text-base mb-5 max-w-2xl">
+          Breve descripción del proyecto, destacando funcionalidades o tecnología.
+        </p>
+
+        <div class="flex flex-wrap gap-3 text-sm mb-4">
+          <span class="bg-white/10 px-3 py-1 rounded">React</span>
+          <span class="bg-white/10 px-3 py-1 rounded">Tailwind</span>
+          <span class="bg-white/10 px-3 py-1 rounded">Astro</span>
+        </div>
+
+        <span class="text-blue-400 text-base opacity-80 group-hover:opacity-100 inline-block">
+          Ver proyecto →
+        </span>
       </div>
 
-    </div>
+    </a>
+
+    <!-- Proyecto 2 -->
+    <a href="https://tu-proyecto2.com" target="_blank" rel="noopener noreferrer"
+       class="group block bg-white/5 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden 
+              hover:scale-[1.02] hover:border-blue-400/40 transition shadow-lg shadow-black/20">
+
+      <!-- Imagen ajustada -->
+      <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
+        <img 
+          src="/public/blisa.png" 
+          alt="Proyecto 2" 
+          class="max-w-full max-h-full object-contain"
+        />
+      </div>
+
+      <!-- Información -->
+      <div class="p-8">
+        <h3 class="text-3xl font-semibold mb-3 group-hover:text-blue-400 transition">
+          Proyecto 2
+        </h3>
+
+        <p class="text-slate-400 text-base mb-5 max-w-2xl">
+          Breve descripción del proyecto.
+        </p>
+
+        <div class="flex flex-wrap gap-3 text-sm mb-4">
+          <span class="bg-white/10 px-3 py-1 rounded">Next.js</span>
+          <span class="bg-white/10 px-3 py-1 rounded">Tailwind</span>
+        </div>
+
+        <span class="text-blue-400 text-base opacity-80 group-hover:opacity-100 inline-block">
+          Ver proyecto →
+        </span>
+      </div>
+
+    </a>
+
+    <!-- Agrega más proyectos siguiendo el mismo patrón -->
 
   </div>
 </section>

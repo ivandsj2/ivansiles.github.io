@@ -1,24 +1,42 @@
 <section id="tech" class="max-w-6xl mx-auto px-6 py-28">
 
-  <h2 class="text-3xl font-bold mb-12">
+  <h2 class="text-3xl font-bold mb-12 text-center">
     Tecnologías
   </h2>
 
-  <div class="flex flex-wrap gap-4">
+  <div class="flex flex-wrap justify-center gap-5">
 
-    <div class="bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm 
-                text-slate-300 hover:text-blue-400 hover:border-blue-400/40 transition">
-      HTML
+    <!-- Tecnología -->
+    <div class="group bg-white/5 backdrop-blur-md border border-white/10 
+                rounded-2xl p-4 w-24
+                flex flex-col items-center gap-3
+                hover:border-blue-400/40 hover:scale-105 transition">
+
+      <!-- Icono -->
+      <img 
+        src="/public/react-original.svg" 
+        alt="React"
+        class="w-8 h-8 opacity-80 group-hover:opacity-100 transition"
+      />
+
+      <!-- Nombre -->
+      <p class="text-xs text-slate-300 group-hover:text-blue-400 transition text-center">
+        React
+      </p>
+
     </div>
 
-    <div class="bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm 
-                text-slate-300 hover:text-blue-400 hover:border-blue-400/40 transition">
-      CSS
-    </div>
+    <!-- Repite -->
+    <div class="group bg-white/5 backdrop-blur-md border border-white/10 
+                rounded-2xl p-4 w-24
+                flex flex-col items-center gap-3
+                hover:border-blue-400/40 hover:scale-105 transition">
 
-    <div class="bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm 
-                text-slate-300 hover:text-blue-400 hover:border-blue-400/40 transition">
-      JavaScript
+      <img src="/public/javascript-original.svg" class="w-8 h-8 opacity-80 group-hover:opacity-100 transition" />
+      <p class="text-xs text-slate-300 group-hover:text-blue-400 transition text-center">
+        JavaScript
+      </p>
+
     </div>
 
   </div>
