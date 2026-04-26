@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en" class="scroll-smooth">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body class="bg-gradient-to-br from-[#0b1120] via-[#020617] to-black text-slate-100 relative overflow-x-hidden">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Astro Basics</title>
+    </head>
+    <body class="bg-gradient-to-br from-[#0b1120] via-[#020617] to-black text-slate-100 relative overflow-x-hidden">
 
   <div class="absolute top-[-200px] left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-blue-500/10 blur-[140px] rounded-full pointer-events-none"></div>
 
@@ -17,10 +17,27 @@
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+  section {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+  }
+
+  section:nth-child(odd) {
+    background-image: linear-gradient(270deg, #00b4d8, #90e0ef, #0077b6, #48cae4);
+    background-size: 600% 600%;
+    animation: gradientShift 4s ease infinite;
+  }
+
+  section:nth-child(even) {
+    background-image: linear-gradient(270deg, #0077b6, #48cae4, #00b4d8, #90e0ef);
+    background-size: 600% 600%;
+    animation: gradientShift 4s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
 </style>

@@ -1,38 +1,54 @@
 <section id="projects" class="max-w-7xl mx-auto px-6 py-28">
-  <h2 class="text-4xl font-bold mb-12 text-center">
-    Proyectos Destacados
-  </h2>
+  <h2 class="text-5xl md:text-6xl font-bold mb-12 text-center">
+  <span class="bg-clip-text text-transparent animated-gradient">
+    Projects
+  </span>
+  <br><br>
+</h2>
+
+<style>
+.animated-gradient {
+  background-image: linear-gradient(270deg, #00b4d8, #90e0ef, #0077b6, #48cae4);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 4s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+</style>
 
   <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
 
-    <!-- Proyecto 1 -->
-    <a href="https://tu-proyecto1.com" target="_blank" rel="noopener noreferrer"
+    <a href="https://blisa.es" target="_blank" rel="noopener noreferrer"
        class="group block bg-white/5 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden 
               hover:scale-[1.02] hover:border-blue-400/40 transition shadow-lg shadow-black/20">
 
-      <!-- Imagen ajustada -->
       <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
         <img 
-          src="/imagenes/proyecto1.jpg" 
-          alt="Proyecto 1" 
+          src="/public/blisa.png" 
+          alt="Blisa" 
           class="max-w-full max-h-full object-contain"
         />
       </div>
 
-      <!-- Información -->
       <div class="p-8">
         <h3 class="text-3xl font-semibold mb-3 group-hover:text-blue-400 transition">
-          Proyecto 1
+          Blisa
         </h3>
 
         <p class="text-slate-400 text-base mb-5 max-w-2xl">
-          Breve descripción del proyecto, destacando funcionalidades o tecnología.
+         Blisa.es is a web project I contributed to, helping improve and maintain the platform while supporting feature development and enhancing the overall user experience and performance.
         </p>
 
         <div class="flex flex-wrap gap-3 text-sm mb-4">
-          <span class="bg-white/10 px-3 py-1 rounded">React</span>
-          <span class="bg-white/10 px-3 py-1 rounded">Tailwind</span>
-          <span class="bg-white/10 px-3 py-1 rounded">Astro</span>
+          <span class="bg-white/10 px-3 py-1 rounded">WordPress</span>
+          <span class="bg-white/10 px-3 py-1 rounded">JavaScript</span>
+          <span class="bg-white/10 px-3 py-1 rounded">PHP</span>
         </div>
 
         <span class="text-blue-400 text-base opacity-80 group-hover:opacity-100 inline-block">
@@ -41,34 +57,66 @@
       </div>
 
     </a>
-
-    <!-- Proyecto 2 -->
-    <a href="https://tu-proyecto2.com" target="_blank" rel="noopener noreferrer"
+    <a href="https://evasionpublicidad.es" target="_blank" rel="noopener noreferrer"
        class="group block bg-white/5 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden 
               hover:scale-[1.02] hover:border-blue-400/40 transition shadow-lg shadow-black/20">
 
-      <!-- Imagen ajustada -->
       <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
         <img 
-          src="/public/blisa.png" 
+          src="/public/logo_0.header_web_evasion-2022.svg" 
           alt="Proyecto 2" 
           class="max-w-full max-h-full object-contain"
         />
       </div>
 
-      <!-- Información -->
       <div class="p-8">
         <h3 class="text-3xl font-semibold mb-3 group-hover:text-blue-400 transition">
-          Proyecto 2
+          Evasión Publicidad
         </h3>
 
         <p class="text-slate-400 text-base mb-5 max-w-2xl">
-          Breve descripción del proyecto.
+          Evasión Publicidad is a website I worked on, where I made modifications to several sections to improve layout, content presentation, and overall user experience.
         </p>
 
         <div class="flex flex-wrap gap-3 text-sm mb-4">
-          <span class="bg-white/10 px-3 py-1 rounded">Next.js</span>
-          <span class="bg-white/10 px-3 py-1 rounded">Tailwind</span>
+          <span class="bg-white/10 px-3 py-1 rounded">WordPress</span>
+          <span class="bg-white/10 px-3 py-1 rounded">Elementor</span>
+          <span class="bg-white/10 px-3 py-1 rounded">PHP</span>
+          <span class="bg-white/10 px-3 py-1 rounded">JavaScript</span>
+        </div>
+
+        <span class="text-blue-400 text-base opacity-80 group-hover:opacity-100 inline-block">
+          Ver proyecto →
+        </span>
+      </div>
+
+    </a>
+    <a href="https://pergolasgranada.com" target="_blank" rel="noopener noreferrer"
+       class="group block bg-white/5 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden 
+              hover:scale-[1.02] hover:border-blue-400/40 transition shadow-lg shadow-black/20">
+
+      <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
+        <img 
+          src="/public/maderas.png" 
+          alt="Proyecto 2" 
+          class="max-w-full max-h-full object-contain"
+        />
+      </div>
+
+      <div class="p-8">
+        <h3 class="text-3xl font-semibold mb-3 group-hover:text-blue-400 transition">
+          Maderas Sulayr
+        </h3>
+
+        <p class="text-slate-400 text-base mb-5 max-w-2xl">
+          Maderas Sulayr is a website I contributed to, focused on improving its design, structure, and overall user experience to make the content clearer and more accessible.
+        </p>
+
+        <div class="flex flex-wrap gap-3 text-sm mb-4">
+          <span class="bg-white/10 px-3 py-1 rounded">WordPress</span>
+          <span class="bg-white/10 px-3 py-1 rounded">Elementor</span>
+          <span class="bg-white/10 px-3 py-1 rounded">PHP</span>
+          <span class="bg-white/10 px-3 py-1 rounded">JavaScript</span>
         </div>
 
         <span class="text-blue-400 text-base opacity-80 group-hover:opacity-100 inline-block">
@@ -78,7 +126,46 @@
 
     </a>
 
-    <!-- Agrega más proyectos siguiendo el mismo patrón -->
+    <a href="https://casademaderagranada.es" target="_blank" rel="noopener noreferrer"
+       class="group block bg-white/5 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden 
+              hover:scale-[1.02] hover:border-blue-400/40 transition shadow-lg shadow-black/20">
+
+      <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
+        <img 
+          src="/public/madera.png" 
+          alt="Proyecto 2" 
+          class="max-w-full max-h-full object-contain"
+        />
+      </div>
+
+      <div class="p-8">
+        <h3 class="text-3xl font-semibold mb-3 group-hover:text-blue-400 transition">
+          SC Estructuras de Madera
+        </h3>
+
+        <p class="text-slate-400 text-base mb-5 max-w-2xl">
+         A website I contributed to, focusing on improving its structure, content presentation, and overall user experience through small enhancements and adjustments.
+        </p>
+
+        <div class="flex flex-wrap gap-3 text-sm mb-4">
+          <span class="bg-white/10 px-3 py-1 rounded">WordPress</span>
+          <span class="bg-white/10 px-3 py-1 rounded">Elementor</span>
+          <span class="bg-white/10 px-3 py-1 rounded">PHP</span>
+          <span class="bg-white/10 px-3 py-1 rounded">JavaScript</span>
+        </div>
+
+        <span class="text-blue-400 text-base opacity-80 group-hover:opacity-100 inline-block">
+          Ver proyecto →
+        </span>
+      </div>
+
+    </a>
+
+    
+    
+
+    
+
 
   </div>
 </section>
