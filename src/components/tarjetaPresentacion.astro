@@ -1,3 +1,7 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
 <section id="about" class="min-h-screen pt-24 max-w-7xl mx-auto px-6 flex items-center">
 
   <div class="grid md:grid-cols-[1.3fr_1fr] gap-4 items-stretch w-full">
@@ -31,7 +35,7 @@
     >
       <div class="absolute w-[450px] h-[450px] bg-blue-500/20 blur-[140px] rounded-full"></div>
       <img
-        src="/1706095518059.jpg"
+        src={`${base}/1706095518059.jpg`}
         class="relative w-full h-full object-cover rounded-2xl border border-white/10 shadow-2xl"
       />
     </div>

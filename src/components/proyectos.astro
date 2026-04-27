@@ -1,3 +1,7 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
 <section id="projects" class="max-w-7xl mx-auto px-6 py-28">
   <h2 class="text-5xl md:text-6xl font-bold mb-12 text-center">
   <span class="bg-clip-text text-transparent animated-gradient">
@@ -30,7 +34,7 @@
 
       <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
         <img 
-          src="/blisa.png" 
+          src={`${base}/blisa.png`} 
           alt="Blisa" 
           class="max-w-full max-h-full object-contain"
         />
@@ -63,7 +67,7 @@
 
       <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
         <img 
-          src="/logo_0.header_web_evasion-2022.svg" 
+          src={`${base}/logo_0.header_web_evasion-2022.svg`} 
           alt="Proyecto 2" 
           class="max-w-full max-h-full object-contain"
         />
@@ -97,7 +101,7 @@
 
       <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
         <img 
-          src="/maderas.png" 
+          src={`${base}/maderas.png`} 
           alt="Proyecto 2" 
           class="max-w-full max-h-full object-contain"
         />
@@ -132,7 +136,7 @@
 
       <div class="w-full h-72 overflow-hidden bg-black/20 flex items-center justify-center">
         <img 
-          src="/madera.png" 
+          src={`${base}/madera.png`} 
           alt="Proyecto 2" 
           class="max-w-full max-h-full object-contain"
         />
