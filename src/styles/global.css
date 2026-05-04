@@ -20,9 +20,3 @@
   animation: gradientShift 4s ease infinite;
   padding: 2rem;
 }
-
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
